@@ -1,0 +1,74 @@
+@keyframes anim1{
+  0%{transform: translateX(0px) rotateZ(0deg)}
+  30%{transform: translateX(250px) rotateZ(90deg)}
+  50%{transform: translate(250px, 250px) rotateZ(180deg);}
+  80%{transform: translate(0px, 250px) rotateZ(270deg);}
+  100%{transform: translate(0px, 0px) rotateZ(360deg);}
+}
+@keyframes anim2{
+  0%{transform: translateX(0px) rotateZ(90deg)}
+  5%{transform: translate(0px, -50px) rotateZ(90deg)}
+  30%{transform: translate(300px, -50px) rotateZ(0deg);}
+  50%{transform: translate(300px, 200px) rotateZ(90deg);}
+  85%{transform: translate(0px, 200px) rotateZ(0deg);}
+  100%{transform: translate(0px, 0px) rotateZ(90deg);}
+}
+@keyframes anim3{
+  0%{transform: translateX(0px) rotateZ(90deg)}
+  10%{transform: translate(0px, -100px) rotateZ(90deg)}
+  30%{transform: translate(350px, -100px) rotateZ(0deg);}
+  50%{transform: translate(350px, 150px) rotateZ(90deg);}
+  90%{transform: translate(0px, 150px) rotateZ(0deg);}
+  100%{transform: translate(0px, 0px) rotateZ(90deg);}
+}
+@keyframes anim4{
+  0%{transform: translateX(0px) rotateZ(0deg)}
+  15%{transform: translate(0px, -150px) rotateZ(90deg)}
+  30%{transform: translate(400px, -150px) rotateZ(0deg);}
+  50%{transform: translate(400px, 100px) rotateZ(90deg);}
+  95%{transform: translate(0px, 100px) rotateZ(0deg);}
+  100%{transform: translate(0px, 0px) rotateZ(90deg);}
+}
+@keyframes anim5{
+  0%{transform: translateX(0px) rotateZ(0deg)}
+  20%{transform: translate(0px, -200px) rotateZ(90deg)}
+  30%{transform: translate(450px, -200px) rotateZ(0deg);}
+  50%{transform: translate(450px, 50px) rotateZ(90deg);}
+  100%{transform: translate(0px, 50px) rotateZ(0deg);}
+}
+
+.wrapper{
+  width: 80%;
+  height: 60%;
+}
+.wrapper div{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.cube_1{
+  background: #E9967A;
+  box-shadow: inset 4px 4px 30px white;
+  animation: anim1 5s infinite;
+}
+.cube_2{
+  background: #ADFF2F;
+  box-shadow: inset 4px 4px 30px white;
+  animation: anim2 5s infinite;
+}
+.cube_3{
+  background: #1E90FF;
+  box-shadow: inset 4px 4px 30px white;
+  animation: anim3 5s infinite;
+}
+.cube_4{
+  background: #FF8C00;
+  box-shadow: inset 4px 4px 30px white;
+  animation: anim4 5s infinite;
+}
+.cube_5{
+  background: #B22222;
+  box-shadow: inset 4px 4px 30px white;
+  animation: anim5 5s infinite;
+}
